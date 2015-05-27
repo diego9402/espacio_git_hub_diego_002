@@ -4,6 +4,13 @@ public class Tiendas {
 
 	String idTienda;
 	String nombre;
+	
+	
+	public Tiendas(String idTienda, String nombre) {
+		super();
+		this.idTienda = idTienda;
+		this.nombre = nombre;
+	}
 	public String getIdTienda() {
 		return idTienda;
 	}

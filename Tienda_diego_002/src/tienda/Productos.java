@@ -6,6 +6,12 @@ public class Productos {
 	String nombre;
 	int precio;
 	
+	public Productos(String idProducto, String nombre, int precio) {
+		super();
+		this.idProducto = idProducto;
+		this.nombre = nombre;
+		this.precio = precio;
+	}
 	public String getIdProducto() {
 		return idProducto;
 	}

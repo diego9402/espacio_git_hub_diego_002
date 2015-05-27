@@ -4,6 +4,13 @@ public class Clientes {
 
 	String idCliente;
 	String nombre;
+	
+	
+	public Clientes(String idCliente, String nombre) {
+		super();
+		this.idCliente = idCliente;
+		this.nombre = nombre;
+	}
 	public String getIdCliente() {
 		return idCliente;
 	}
@@ -16,4 +23,6 @@ public class Clientes {
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
+	
+
 }
